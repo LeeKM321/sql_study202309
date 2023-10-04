@@ -82,7 +82,7 @@ SELECT
     salary + (salary * commission_pct)
 FROM employees;
 
--- DECOCE(컬럼 혹은 표현식, 항목1, 결과1, 항목2, 결과2  ..........  default)
+-- DECODE(컬럼 혹은 표현식, 항목1, 결과1, 항목2, 결과2  ..........  default)
 SELECT
     DECODE('Z', 'A', 'A입니다.', 'B', 'B입니다.', 'C', 'C입니다.', '뭔데 그게?')
 FROM dual;
